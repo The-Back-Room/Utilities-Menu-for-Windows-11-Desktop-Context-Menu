@@ -1,7 +1,16 @@
-Tools and Utilities for Windows 11 Desktop Context Menus
-====================================    
+## Tools and Utilities for Windows 11 Desktop Context Menus
 
-![Utilities Menu][Utilities_Preview]
+
+> [!IMPORTANT]
+> These are for Windows 11 **ONLY**.   
+> Some of these features **WILL NOT** work on earlier versions of Windows.
+
+
+<div align="center">
+  <img src="./Previews/Preview (001).bmp" alt="Preview 001" width="30%" /> 
+  <img src="./Previews/Preview (002).bmp" alt="Preview 002" width="30%" /> 
+  <img src="./Previews/Preview (003).bmp" alt="Preview 003" width="30%" />
+</div>
 
 ### Tools Menu
 
@@ -54,5 +63,3 @@ Tools and Utilities for Windows 11 Desktop Context Menus
         <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.</em>
     </details>
 </div>
-
-[Utilities_Preview]: Previews/Utilities%20Menu.png
