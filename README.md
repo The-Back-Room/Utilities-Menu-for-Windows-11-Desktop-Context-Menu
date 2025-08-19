@@ -36,16 +36,16 @@
 - Restart Explorer
 - Restart Explorer 7 | Addon
 
-> [!NOTE]
-> - The `Explorer 7`, `DWMBlurGlass`, options are called on from subdirectories located inside the `Tools` folder. You will need to download the latest versions from the shortcuts provided.   
-> - The `MicaForEveryone` menu relies on the `.msi` variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the `MicaForEveryone.App.exe` process created by the `.msi` installation method. For this reason, manual installations of `MicaForEveryone` might not be compatible with this menu.   
-
 ## Installation
 
 - To install simply download the archive and extract the `Tools` folder into the root of your system drive; `C:\`.
   - To add the Tools menu to your desktop context menu, simply double-click the `Add Tools Menu to Desktop Context Menu.reg` file.
   - To add the Utilities menu to your desktop context menu, simply double-click the `Add Utilites Menu to Desktop Context Menu.reg` file to add the Utilities.
   - To install the addons, simply double-click the registry file to add whichever addons you want.
+
+> [!NOTE]
+> - The `Explorer 7`, `DWMBlurGlass`, options are called on from subdirectories located inside the `Tools` folder. You will need to download the latest versions from the shortcuts provided.   
+> - The `MicaForEveryone` menu relies on the `.msi` variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the `MicaForEveryone.App.exe` process created by the `.msi` installation method. For this reason, manual installations of `MicaForEveryone` might not be compatible with this menu.   
 
 ## Uninstallation
 
