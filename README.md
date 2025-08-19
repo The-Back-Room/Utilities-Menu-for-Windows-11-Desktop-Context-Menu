@@ -2,9 +2,7 @@
 
 
 > [!IMPORTANT]
-> These are for Windows 11 **ONLY**.   
-> Some of these features **WILL NOT** work on earlier versions of Windows.
-
+> Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.
 
 <div align="center">
   <img src="./Previews/Preview (001).bmp" alt="Preview 001" width="30%" /> 
@@ -38,6 +36,10 @@
 - Restart Explorer
 - Restart Explorer 7 | Addon
 
+> [!NOTE]
+> - The `Explorer 7`, `DWMBlurGlass`, options are called on from subdirectories located inside the `Tools` folder. You will need to download the latest versions from the shortcuts provided.   
+> - The `MicaForEveryone` menu relies on the `.msi` variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the `MicaForEveryone.App.exe` process created by the `.msi` installation method. For this reason, manual installations of `MicaForEveryone` might not be compatible with this menu.   
+
 ## Installation
 
 - To install simply download the archive and extract the `Tools` folder into the root of your system drive; `C:\`.
@@ -51,15 +53,10 @@
 - To remove the Utilities menu simply double-click the `Remove Utilities Menu from Desktop Context Menu.reg` file.
 - To remove the addons without removing the Tools or Utilities menus, simply double-click the registry file to remove whichever addons you want to remove.
 
-**Download**: [Download ZIP](https://github.com/The-Back-Room/Tools-and-Utilities-Menus-for-Windows-11-Desktop-Context-Menu/archive/refs/heads/main.zip)
+**Download**: [Download ZIP][Download ZIP]
 
-<div align="center">
-    <details>
-        <summary>
-            <h2>Important Notes</h2>
-        </summary>
-        <em>The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, options are called on from subdirectories located inside the <code>Tools</code> folder. You will need to download the latest versions from the shortcuts provided.
-        <br /><br />The <code>MicaForEveryone</code> menu relies on the <code>.msi</code> variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the <code>MicaForEveryone.App.exe</code> process created by the <code>.msi</code> installation method. For this reason, manual installations of <code>MicaForEveryone</code> might not be compatible with this menu.
-        <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.</em>
-    </details>
-</div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+[Download ZIP]: https://github.com/The-Back-Room/Tools-and-Utilities-Menus-for-Windows-11-Desktop-Context-Menu/archive/refs/heads/main.zip
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
