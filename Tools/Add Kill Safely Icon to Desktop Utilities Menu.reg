@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Kill Safely Icon]
-"Icon"="taskmgr.exe,-30651"
-"MUIVerb"="Kill Safely Icon"
-"Position"="Top"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Kill Safely Icon\command]
-@="\"C:\\Tools\\Scripts\\Kill Safely Icon.cmd\""
