@@ -4,32 +4,6 @@ Windows Registry Editor Version 5.00
 "Icon"="themecpl.dll"
 "MUIVerb"="DWM Blur Glass"
 "Position"="Middle"
-"SubCommands"=""
-"Extended"=-
-"SeparatorBefore"=""
-"SeparatorAfter"="
 
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\GUI]
-"Icon"="themecpl.dll"
-"MUIVerb"="GUI"
-"Position"="Top"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\GUI\command]
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\command]
 @="\"C:\\Tools\\DWMBlurGlass\\DWMBlurGlass.exe\""
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\Start]
-"Icon"="themecpl.dll"
-"MUIVerb"="Start"
-"CommandFlags"=dword:00000020
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\Start\command]
-@="\"C:\\Tools\\Scripts\\Start DWMBlurGlass.cmd\""
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\Stop]
-"Icon"="themecpl.dll"
-"MUIVerb"="Stop"
-"Position"="Bottom"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\Shell\Stop\command]
-@="\"C:\\Tools\\Scripts\\Stop DWMBlurGlass.cmd\""
