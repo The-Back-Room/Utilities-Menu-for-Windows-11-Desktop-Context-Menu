@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Old New Explorer]
-"Icon"="themecpl.dll"
-"MUIVerb"="Old New Explorer"
-"Position"="Middle"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Old New Explorer\command]
-@="\"C:\\Tools\\OldNewExplorer\\OldNewExplorerCfg.exe\""

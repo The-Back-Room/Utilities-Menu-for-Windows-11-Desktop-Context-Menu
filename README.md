@@ -20,13 +20,11 @@ Tools and Utilities for Windows 11 Desktop Context Menus
 - MicaForEveryone Menu | Addon
   - Start MicaForEveryone
   - Stop MicaForEveryone
-- Old New Explorer | Addon
-- DWMBlurGlass | Addon
+- DWMBlurGlass Context Menu Entree| Addon
 
 ### Utilities Menu
 
 - Kill Not Responding Tasks
-- Kill Safely Icon | Addon
 - Refresh Icon Cache
 - Restart Explorer
 - Restart Explorer 7 | Addon
@@ -51,7 +49,7 @@ Tools and Utilities for Windows 11 Desktop Context Menus
         <summary>
             <h2>Important Notes</h2>
         </summary>
-        <em>The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, and <code>Old New Explorer</code> options are called on from subdirectories located inside the <code>Tools</code> folder. Files have been included for compatibility; however, you may need to update them for your own usage.
+        <em>The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, options are called on from subdirectories located inside the <code>Tools</code> folder. You will need to download the latest versions from the shortcuts provided.
         <br /><br />The <code>MicaForEveryone</code> menu relies on the <code>.msi</code> variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the <code>MicaForEveryone.App.exe</code> process created by the <code>.msi</code> installation method. For this reason, manual installations of <code>MicaForEveryone</code> might not be compatible with this menu.
         <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.</em>
     </details>
