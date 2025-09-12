@@ -1,4 +1,4 @@
-## Utilities Menu for Windows 11 Desktop Context Menus
+## Utilities Menu for Windows 11 Desktop Context Menu
 
 ### Features
 
