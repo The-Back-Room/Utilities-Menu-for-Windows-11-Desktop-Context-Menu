@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass]
-"Icon"="themecpl.dll"
-"MUIVerb"="DWM Blur Glass"
-"Position"="Middle"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DWMBlurGlass\command]
-@="\"C:\\Tools\\DWMBlurGlass\\DWMBlurGlass.exe\""
