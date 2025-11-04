@@ -5,12 +5,12 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 
 ### Features
 
-- Kill Not Responding Tasks *(Finds and kills all non-responding tasks)*
-- Kill Task Manager *(Forcibly closes the Task Manager process to resolve issues)*
-- MKLINK Assistant *(Assists in creating symbolic/hard links, and directory junctions using the MKLINK command)*
-- Refresh Icon Cache *(Refreshes the icon and thumbnail cache to fix icon display issues)*
-- Restart Explorer *(Restarts Windows Explorer to resolve various UI issues)*
-- Restart Start Menu *(Restarts the Start Menu to resolve various UI issues)*
+- **Kill Not Responding Tasks**: Finds and kills all non-responding tasks
+- **Kill Task Manager**: Forcibly closes the Task Manager process to resolve issues
+- **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
+- **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues
+- **Restart Explorer**: Restarts Windows Explorer to resolve various UI issues
+- **Restart Start Menu**: Restarts the Start Menu to resolve various UI issues
 
 ## Instructions
 
