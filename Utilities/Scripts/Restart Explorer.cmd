@@ -12,10 +12,10 @@ IF ERRORLEVEL 0 (
 	TASKKILL /F /IM explorer.exe >NUL
 	TIMEOUT /T 3 >NUL
 	TASKLIST /FI "ImageName eq explorer.exe" /FO CSV 2>NUL | find /I "explorer.exe">NUL
-	IF ERRORLEVEL NEQ 0 (
-		START explorer.exe >NUL
+	IF ERRORLEVEL 0 (
 		GOTO SUCCESS
 	) ELSE (
+		START explorer.exe >NUL
 		GOTO SUCCESS
 	)
 ) ELSE (

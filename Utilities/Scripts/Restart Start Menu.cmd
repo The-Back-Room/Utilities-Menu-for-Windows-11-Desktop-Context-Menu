@@ -11,13 +11,13 @@ ECHO.
 ECHO Please wait...
 
 IF ERRORLEVEL 0 (
-	TASKKILL /F /IM StartMenuExperienceHost.exe >NUL
-	TASKLIST /FI "ImageName eq StartMenuExperienceHost.exe" /FO CSV 2>NUL | find /I "StartMenuExperienceHost.exe">NUL
-	TIMEOUT /T 3 >NUL
-	IF ERRORLEVEL NEQ 0 (
-		START StartMenuExperienceHost.exe >NUL
+	TASKKILL /F /IM StartMenuExperienceHost.exe > NUL
+	TIMEOUT /T 3 > NUL
+	TASKLIST /FI "ImageName eq StartMenuExperienceHost.exe" /FO CSV 2 > NUL | find /I "StartMenuExperienceHost.exe" > NUL
+	IF ERRORLEVEL 0 (
 		GOTO SUCCESS
 	) ELSE (
+		START StartMenuExperienceHost.exe >NUL
 		GOTO SUCCESS
 	)
 ) ELSE (
