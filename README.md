@@ -11,6 +11,7 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 - **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues
 - **Restart Explorer**: Restarts Windows Explorer to resolve various UI issues
 - **Restart Start Menu**: Restarts the Start Menu to resolve various UI issues
+- **Verify Windows Integrity**: Verify and repair system files using the System File Checker (SFC) tool and Deployment Imaging Service and Management Tool (DISM)
 
 ## Instructions
 
