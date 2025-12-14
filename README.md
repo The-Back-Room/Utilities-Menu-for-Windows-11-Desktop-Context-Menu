@@ -1,7 +1,7 @@
 ## Utilities Menu for Windows 11 Desktop Context Menu
 A simple set of utilities added to the Windows 11 desktop context menu for quick access to common tasks.
 
-[![Utilities Menu Screenshot](Extras/Preview.bmp)](Extras/Preview.bmp)
+<img src="Extras/Preview.bmp" alt="Preview" width="100%" height="auto" />
 
 ### Features
 
