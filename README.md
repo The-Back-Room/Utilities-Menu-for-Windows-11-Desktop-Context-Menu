@@ -18,7 +18,7 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 > [!WARNING]
 > 🚨 **Known Issues**: The following bugs are known ad are currently being looked into. Please be patient as we attempt to fix them.
 > 
-> - **Refresh Icon Cache**: As of December 20 2025, this feature has stopped running from the context menu. The script is still available in the `Scripts` sub folder and works perfectly when executed directly. But, until I figure out why it refuses to trigger from the context menu, the context menu entree has been temporarily removed.
+> - **Refresh Icon Cache**: As of December 20 2025, this feature has stopped running from the context menu. The script is still available in the `Scripts` sub folder and works perfectly when executed directly. However, until I figure out why it refuses to trigger from the context menu, the context menu entree has been temporarily removed.
 
 ### Instructions
 
