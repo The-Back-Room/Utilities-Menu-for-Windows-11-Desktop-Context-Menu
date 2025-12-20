@@ -5,7 +5,7 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 
 ### Features
 
-- **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script.
+- **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script. *(Requires RAMMap to be installed and added to PATH)*
 - **Kill Not Responding Tasks**: Finds and kills all non-responding tasks
 - **Kill Task Manager**: Forcibly closes the Task Manager process to resolve issues
 - **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
