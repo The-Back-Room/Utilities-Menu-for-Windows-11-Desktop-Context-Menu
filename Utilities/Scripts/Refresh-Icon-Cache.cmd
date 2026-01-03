@@ -83,7 +83,6 @@ ECHO ::                Command Failed                  ::
 ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO An error occurred while refreshing the icon cache.
-ECHO Please try running this script again.
 GOTO EXIT
 
 :EXIT
