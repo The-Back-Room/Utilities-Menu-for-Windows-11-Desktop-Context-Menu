@@ -30,7 +30,7 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 
 ### Explorer7
 
-- Download explorer7 from the explorer7 [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. The follow the instructions to set it up on your system.
+- Download explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. Then follow the instructions to set it up on your system. *(A windows 7 or xp iso file is required for explorer7. You can find one on [archive.org](https://archive.org/details/windows7ultimatex64_201912))*.
 
 If done correctly, the file structure should look like this:
 
