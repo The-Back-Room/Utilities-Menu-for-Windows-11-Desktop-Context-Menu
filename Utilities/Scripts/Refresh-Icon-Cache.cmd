@@ -2,7 +2,7 @@
 
 SET ICONCACHE="%LOCALAPPDATA%\IconCache.db"
 SET ICONCACHE_X="%LOCALAPPDATA%\Microsoft\Windows\Explorer\iconcache*"
-SET THUMBCACHE="%LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*
+SET THUMBCACHE="%LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*"
 
 CLS
 MODE CON COLS=45 LINES=15
@@ -30,28 +30,17 @@ ECHO.
 ECHO Please wait...
 ECHO.
 
-TASKKILL /F /IM explorer.exe >NUL 2>&1
-IF EXISTS %ICONCACHE% ( 
-	DEL /A /F /Q %ICONCACHE% >NUL 2>&1
-	) ELSE ( 
-		ECHO Icon cache db file not found, continuing...
-		ECHO.
-		)
-IF EXISTS %ICONCACHE_X% ( 
-	DEL /A /F /Q %ICONCACHE_X% >NUL 2>&1
-	) ELSE ( 
-		ECHO Icon cache files not found, continuing...
-		ECHO.
-		)
-IF EXISTS %THUMBCACHE% ( 
-	DEL /A /F /Q %THUMBCACHE% >NUL 2>&1
-	) ELSE ( 
-		ECHO Thumbnail cache files not found, continuing...
-		ECHO.
-		)
-TIMEOUT /T 3 
-START explorer.exe >NUL 2>&1
-IF %ERRORLEVEL%=="0" GOTO SUCCESS ELSE GOTO FAILED
+TASKKILL /F /IM explorer.exe >NUL
+DEL /A /F /Q %ICONCACHE% >NUL
+DEL /A /F /Q %ICONCACHE_X% >NUL
+DEL /A /F /Q %THUMBCACHE% >NUL
+TIMEOUT /T 3 >NUL
+START explorer.exe >NUL
+IF %ERRORLEVEL% EQU 0 (
+	GOTO SUCCESS
+) ELSE (
+	GOTO FAILED
+)
 
 :SUCCESS
 	CLS
@@ -80,6 +69,6 @@ IF %ERRORLEVEL%=="0" GOTO SUCCESS ELSE GOTO FAILED
 :EXIT
 	ECHO.
 	ECHO You can now close this window. It will close automatically in 5 seconds.
-	TIMEOUT /T 5
+	TIMEOUT /T 5 >NUL
 	EXIT
 
