@@ -14,6 +14,10 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 - **Restart Start Menu**: Restarts the Start Menu to resolve various UI issues
 - **Verify Windows Integrity**: Verify and repair system files using the System File Checker (SFC) tool and Deployment Imaging Service and Management Tool (DISM)
 
+## Optional Addons
+
+- **Restart Explorer7**: Optional feature for explorer7 users to restart explorer 7 without needing the log off. *(Requires explorer7 to be installed into `C:\Utilities\explorer7`.)*
+
 ### Instructions
 
 1. Download the ZIP file from the link below.

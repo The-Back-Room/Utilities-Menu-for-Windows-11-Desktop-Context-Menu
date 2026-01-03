@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Restart Explorer7]
+"Icon"="explorer.exe"
+"MUIVerb"="Restart Explorer7"
+"Position"="Middle"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Restart Explorer7\command]
+@="cmd.exe /c taskkill /f /im explorer.exe & start C:\\Utilities\\explorer7\\explorer.exe"
