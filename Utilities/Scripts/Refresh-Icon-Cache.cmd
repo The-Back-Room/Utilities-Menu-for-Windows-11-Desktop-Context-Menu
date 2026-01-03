@@ -77,9 +77,9 @@ GOTO EXIT
 CLS
 MODE CON COLS=52 LINES=15
 COLOR 4F
-TITLE Error: Command Failed
+TITLE Command Error
 ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
-ECHO ::                Command Failed                  ::
+ECHO ::                 Command Error                  ::
 ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO An error occurred while refreshing the icon cache.
