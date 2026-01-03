@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Refresh Icon Cache]
+"Icon"="cmd.exe"
+"MUIVerb"="Refresh Icon Cache"
+"Position"="Middle"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Refresh Icon Cache\command]
+@="\"C:\\Utilities\\Scripts\\Refresh-Icon-Cache.cmd\""

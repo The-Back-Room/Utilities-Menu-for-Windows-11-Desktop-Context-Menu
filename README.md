@@ -5,11 +5,8 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 
 ## Features
 
-- **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script. *(Requires RAMMap to be installed and added to PATH)*
 - **Kill Not Responding Tasks**: Finds and kills all non-responding tasks
 - **Kill Task Manager**: Forcibly closes the Task Manager process to resolve issues
-- **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
-- **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues.
 - **Restart Explorer**: Restarts Windows Explorer to resolve various UI issues
 - **Restart Start Menu**: Restarts the Start Menu to resolve various UI issues
 - **Verify Windows Integrity**: Verify and repair system files using the System File Checker (SFC) tool and Deployment Imaging Service and Management Tool (DISM)
@@ -17,6 +14,9 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 ## Optional Addons
 
 - **Restart Explorer7**: Optional feature for explorer7 users to restart explorer 7 without needing the log off. *(Requires explorer7 to be installed into `C:\Utilities\explorer7`.)*
+- **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
+- **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues.
+- **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script. *(Requires RAMMap to be installed and added to PATH)*
 
 ## Instructions
 
@@ -64,6 +64,22 @@ If done correctly, the file structure should look like this:
 - **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorixation` directory.
 - **ColorizationOptions**: Double-click the registry file for your desired setting in the `explorer7\extras\ColorizationOptions` directory.
 - **Themes**: Double-click the `aero.reg` file located in the `extras\Themes` directory to enable to aero theme. *(Alternatively, if you know how to work with registry files, you can use the `aero.reg` file as a template to make a registry file for your own themes)*
+
+### Cleanup Memory
+
+- Download and install RAMMap from the Microsoft Store to ensure it is automatically added to PATH.
+- Double-click the `Add Cleanup Memory.reg` file located in the `extras\Addons` directory.
+- To remove, simply double-click the `Remove Cleanup Memory.reg` file located in the `extras\Addons` directory.
+
+### Refresh Icon Cache
+
+- Double-click the `Add Refresh Icon Cache.reg` file located in the `extras\Addons` directory.
+- To remove, simply double-click the `Remove Refresh Icon Cache.reg` file located in the `extras\Addons` directory.
+
+### MKLINK Assistant
+
+- Double-click the `Add MKLINK Assistant.reg` file located in the `extras\Addons` directory.
+- To remove, simply double-click the `Remove MKLINK Assistant.reg` file located in the `extras\Addons` directory.
 
 ---
 

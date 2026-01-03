@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\MKLINK Assistant]
+"Icon"="cmd.exe"
+"MUIVerb"="MKLINK Assistant"
+"Position"="Top"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\MKLINK Assistant\command]
+@="\"C:\\Utilities\\Scripts\\MKLINK-Assistant.cmd\""

@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory]
+"Icon"="RAMMap.exe"
+"MUIVerb"="Cleanup Memory"
+"Position"="Bottom"
+"SubCommands"=""
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Working Sets]
+"Icon"="RAMMap.exe"
+"MUIVerb"="Empty Working Sets"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Working Sets\command]
+@="RAMMap64.exe -Ew"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Standby List]
+"Icon"="RAMMap.exe"
+"MUIVerb"="Empty Standby List"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Standby List\command]
+@="RAMMap64.exe -Et"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Modified Page List]
+"Icon"="RAMMap.exe"
+"MUIVerb"="Empty Modified Page List"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\Cleanup Memory\shell\Empty Modified Page List\command]
+@="RAMMap64.exe -Em"
