@@ -23,9 +23,9 @@ CLS
 MODE CON COLS=52 LINES=15
 COLOR 1F
 TITLE Applying
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO ::              Refresh Icon Cache                ::
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO Refreshing Icon Cache... Please wait.
 ECHO.
@@ -60,9 +60,9 @@ CLS
 MODE CON COLS=52 LINES=15
 COLOR 2F
 TITLE Success
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
-ECHO ::                Success                  ::
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                     Success                    ::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO Icon cache has been successfully refreshed.
 ECHO.
@@ -77,9 +77,9 @@ CLS
 MODE CON COLS=52 LINES=15
 COLOR 4F
 TITLE Error: Command Failed
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
-ECHO ::            Command Failed               ::
-ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                Command Failed                  ::
+ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO An error occurred while refreshing the icon cache.
 ECHO Please try running this script again.
