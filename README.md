@@ -34,7 +34,7 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 
 If done correctly, the file structure should look like this:
 
-```
+```md
 - Utilites\
     - explorer7\
         - en-US\
