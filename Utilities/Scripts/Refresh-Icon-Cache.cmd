@@ -12,7 +12,8 @@ ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO ::              Refresh Icon Cache                ::
 ECHO ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
-ECHO This script will refresh the Windows Icon Cache to resolve display issues with icons.
+ECHO This script will refresh the Windows Icon Cache to
+ECHO resolve display issues with icons.
 ECHO.
 ECHO Press any key to start the refresh process...
 PAUSE >NUL
@@ -87,6 +88,7 @@ GOTO EXIT
 
 :EXIT
 ECHO.
-ECHO You can now close this window. It will close automatically in 5 seconds.
+ECHO You can now close this window.
+ECHO It will close automatically in 5 seconds.
 TIMEOUT /T 5 >NUL
 EXIT
