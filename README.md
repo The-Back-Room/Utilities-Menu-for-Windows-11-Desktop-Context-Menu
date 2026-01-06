@@ -35,31 +35,7 @@ To remove the Utilities Menu from your desktop context menu, double-click the `R
 
 If done correctly, the file structure should look like this:
 
-```md
-- Utilites\
-    - explorer7\
-        - en-US\
-            - explorer.exe.mui
-            - shell32.dll.mui
-        - theme\
-            - Aero\
-                - en-US\
-                    - aero.msstyles.mui
-                - aero.msstyles
-        - orbs\
-            - m2\
-                - 6801.bmp
-        - extras\
-            - Themes\
-                - aero.reg
-            - Enable Colorization.reg
-            - Enable Modern Apps.reg
-        - ex7forw8.exe
-        - explorer.exe
-        - wrp64.dll
-        - Import Me.reg
-        - README.txt
-```
+<img align="center" width="50%" height="auto" alt="File Structure" src="/Extras/explorer7-file-structure.bmp" />
 
 - **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `explorer7\extra` directory to enable support for modern apps in explorer7.
 - **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorixation` directory.
