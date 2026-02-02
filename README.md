@@ -38,7 +38,7 @@ If done correctly, the file structure should look like this:
 <img align="center" width="50%" height="auto" alt="File Structure" src="/Extras/explorer7-file-structure.bmp" />
 
 - **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `explorer7\extra` directory to enable support for modern apps in explorer7.
-- **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorixation` directory.
+- **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorization` directory.
 - **ColorizationOptions**: Double-click the registry file for your desired setting in the `explorer7\extras\ColorizationOptions` directory.
 - **Themes**: Double-click the `aero.reg` file located in the `extras\Themes` directory to enable to aero theme. *(Alternatively, if you know how to work with registry files, you can use the `aero.reg` file as a template to make a registry file for your own themes)*
 
